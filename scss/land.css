@@ -1,0 +1,69 @@
+header {
+  color: white;
+  padding: 50px;
+}
+
+#indBody {
+  background-image: url("/images/mount.jpg");
+}
+
+#portBody {
+  padding-top: 60px;
+  background-color: #616a6b;
+  background-image: url("/images/header.png");
+}
+
+#bottomContainer {
+  background-color: skyblue;
+  padding: 70px;
+}
+
+a li {
+  color: #616a6b;
+}
+
+#top {
+  font-family: cursive;
+}
+
+#bottom {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.mid {
+  /* display: inline-block; */
+  text-align: center;
+  margin: auto;
+  margin-top: 15%;
+  color: white;
+}
+
+#bodyRow {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#lin a {
+  color: #000;
+}
+
+ul a {
+  color: #000;
+}
+
+ul a :hover {
+  color: goldenrod;
+}
+
+button {
+  -webkit-transition: width 2s height 2s;
+  transition: width 2s height 2s;
+  -webkit-transition-timing-function: ease;
+          transition-timing-function: ease;
+}
+
+button button :hover {
+  width: 10px;
+}
+/*# sourceMappingURL=land.css.map */

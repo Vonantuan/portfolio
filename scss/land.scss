@@ -1,0 +1,63 @@
+$linkColor: #000;
+$textColor: rgb(97,106,107);
+$topFont: cursive;
+$bottomFont: Arial, Helvetica, sans-serif;
+$bg-img: url('/images/mount.jpg');
+$hd-img: url('/images/header.png');
+
+
+
+
+
+header{
+    color: white;
+    padding: 50px;
+}
+#indBody{
+    background-image: $bg-img;
+}
+
+#portBody{
+    padding-top: 60px;
+    background-color:$textColor;
+    background-image: $hd-img;
+}
+#bottomContainer{
+    background-color: skyblue;
+    padding: 70px;
+}
+a li{
+     color: $textColor;
+}
+#top{
+    font-family: $topFont;
+} 
+#bottom{
+    font-family: $bottomFont;
+}
+.mid{
+    /* display: inline-block; */
+    text-align: center;
+    margin: auto;
+    margin-top: 15%;
+    color: white;
+}
+#bodyRow{
+    justify-content: space-between;
+}
+#lin a{
+    color: #000;
+}
+ul a{
+    color: $linkColor;
+    :hover{
+        color:goldenrod;
+    }
+}
+button{
+    transition: width 2s height 2s;
+    transition-timing-function: ease;
+    button :hover{
+        width: 10px;
+    }
+}
